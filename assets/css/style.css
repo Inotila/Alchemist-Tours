@@ -70,10 +70,44 @@ line-height: 75px;
     background: url(../images/Webp.net-resizeimage.jpg) no-repeat;
 }
 
+/* home info*/
+#home-info {
+    height: 400px;
+    }
+
+#weather {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: greenyellow;
+}
+
+#time {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: hotpink;
+}
+
+#location {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: indigo;
+}
+
+.right-side{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+}
+
 /* footer */
 footer {
     height: 150px;
     border-top: 1px gray solid;
+    clear: both;
 }
 /* social networks */
 
