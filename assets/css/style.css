@@ -7,10 +7,20 @@
 }
 
 body {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 300;
     color: goldenrod;
 }
+
+/* Headings*/
+
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:slategrey;
+}
+
 
 /* logo and menu */
 
