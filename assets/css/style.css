@@ -55,3 +55,17 @@ line-height: 75px;
 #nav-menu a:hover {
     color: green;
 }
+
+/* image */
+
+#main-image-outer{
+    height: 500px;
+    width: 33%;
+    clear:both
+}
+
+#main-image {
+    height: 400px;
+    width: 100%;
+    background: url(../images/Webp.net-resizeimage.jpg) no-repeat;
+}
