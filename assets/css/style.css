@@ -101,6 +101,11 @@ line-height: 75px;
     right: 50px;
 }
 
+.right-side > h2 {
+    /* padding-bottom: 5px; */
+    height: 50px;
+}
+
 #time {
     padding-top: 0px;
     height: 400px;
