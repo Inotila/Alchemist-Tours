@@ -14,6 +14,10 @@ body {
 
 /* Headings*/
 
+header{
+    overflow: hidden;
+}
+
 h1, h2 {
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
@@ -56,18 +60,12 @@ line-height: 75px;
     color: green;
 }
 
-/* image */
-
-#main-image-outer{
-    height: 500px;
-    width: 33%;
-    clear:both
-}
-
 #main-image {
+    float: left;
     height: 400px;
-    width: 100%;
-    background: url(../images/Webp.net-resizeimage.jpg) no-repeat;
+    clear: both;
+    width: 33%;
+    vertical-align: middle;
 }
 
 /* home info*/
@@ -75,6 +73,10 @@ line-height: 75px;
     height: 400px;
     }
 
+    #about-namibia {
+        text-align: center;
+    }
+    
 #weather {
     padding-top: 30px;
     width: 33%;
@@ -87,6 +89,7 @@ line-height: 75px;
     width: 33%;
     float: right;
     background-color: hotpink;
+    text-align: center;
 }
 
 #location {
@@ -96,8 +99,15 @@ line-height: 75px;
     background-color: indigo;
 }
 
+#Languages {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: blue;
+}
+
 .right-side{
-    width: 60%;
+    width: 67%;
     float: right;
     line-height: 20px;
     clear: both;
