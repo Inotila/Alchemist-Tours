@@ -70,33 +70,53 @@ line-height: 75px;
 
 /* home info*/
 #home-info {
-    height: 400px;
+    height: 600px;
+    display: flex;
     }
 
     #about-namibia {
         text-align: center;
+        position: absolute;
+        top: 80px;
+        right: 500px;
     }
     
 #weather {
-    padding-top: 30px;
+    padding-top: 0px;
+    height: 400px;
     width: 33%;
+    text-align: center;
     float: right;
     background-color: greenyellow;
+    position: relative;
+    top: 50px;
+}
+
+.right-side {
+    position: relative;
+    right: 50px;
 }
 
 #time {
-    padding-top: 30px;
+    padding-top: 0px;
+    height: 400px;
     width: 33%;
     float: right;
     background-color: hotpink;
     text-align: center;
+    position: relative;
+    top: 50px;
 }
 
 #location {
-    padding-top: 30px;
+    padding-top: 0px;
+    height: 400px;
     width: 33%;
     float: right;
     background-color: indigo;
+    text-align: center;
+    position: relative;
+    top: 50px;
 }
 
 #Languages {
