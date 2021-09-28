@@ -69,12 +69,14 @@ line-height: 75px;
     vertical-align: middle;
     position: relative;
     top: 50px;
+    padding-left: 10px;
 }
 
 /* home info*/
 #home-info {
-    height: 550px;
+    height: 450px;
     display: flex;
+    padding-bottom: 10px;
     }
 
     #about-namibia {
@@ -82,7 +84,7 @@ line-height: 75px;
         position: absolute;
         top: 80px;
         right: 325px;
-        padding-top: 5px;
+        padding-top: 10px;
     }
     
 #weather {
