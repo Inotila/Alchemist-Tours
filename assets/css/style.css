@@ -61,6 +61,8 @@ line-height: 75px;
     color: green;
 }
 
+
+/* main -image*/
 #main-image {
     float: left;
     height: 400px;
@@ -82,7 +84,7 @@ line-height: 75px;
     #about-namibia {
         text-align: center;
         position: absolute;
-        top: 80px;
+        top: 150px;
         right: 325px;
         padding-top: 10px;
         border-bottom: 1px gray solid;
@@ -90,13 +92,13 @@ line-height: 75px;
     
 #weather {
     padding-top: 0px;
-    height: 400px;
+    height: 250px;
     width: 33%;
     text-align: center;
     float: right;
     /* background-color: greenyellow; */
     position: relative;
-    top: 50px;
+    top: 150px;
 }
 
 .right-side {
@@ -111,31 +113,24 @@ line-height: 75px;
 
 #time {
     padding-top: 0px;
-    height: 400px;
+    height: 250px;
     width: 33%;
     float: right;
     /* background-color: hotpink; */
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 150px;
 }
 
 #location {
     padding-top: 0px;
-    height: 400px;
+    height: 250px;
     width: 33%;
     float: right;
     /* background-color: indigo; */
     text-align: center;
     position: relative;
-    top: 50px;
-}
-
-#Languages {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: blue;
+    top: 150px;
 }
 
 .right-side{
@@ -143,6 +138,7 @@ line-height: 75px;
     float: right;
     line-height: 20px;
     clear: both;
+    vertical-align: middle;
 }
 
 /* footer */
