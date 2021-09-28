@@ -163,3 +163,19 @@ footer {
     padding: 4%;
     color: slategrey;
 }
+
+/* gallery html */
+
+#pictures{
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 1px;
+    height: auto;
+}
+
+#pictures > img {
+    width: 100%;
+    /* height:100px; */
+    margin: 1px;
+}
