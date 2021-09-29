@@ -210,8 +210,9 @@ img {
 /* attractions page */
 #attraction-page{
     width: 100%;
-    height: auto;
-    position: ;
+    height: 700px;
+    background-color: salmon;
+    position: relative;
 }
 
 #attraction-img {
@@ -220,7 +221,7 @@ img {
     clear: both;
     width: 33%;
     /* vertical-align: middle; */
-    position: relative;
+    position: absolute;
     top: 50px;
     /* padding-left: 10px; */
     /* line-height: 50px; */
@@ -234,34 +235,24 @@ attraction-main-image{
     text-align: center;
     width: 67%;
     /* line-height: 50px; */
-    /* height: 200px; */
+    height: 100px;
     float:right;
-    /* position: absolute; */
-    /* top: 150px; */
-    /* right: 325px; */
+    top: 50px;
+    right: 0px;
     /* padding-top: 10px; */
     background-color: aqua;
-    position: relative;
-    top: 50px;
+    position: absolute;
+    /* top: 50px; */
 }
 
-.attraction-details {
+#attraction-details {
     width: 357px;
     background-color: red;
-    /* position: relative;*/
-    /* top:0px; */
-    float: right;
-    clear: both;
-    display: inline-;
+    position: absolute;
+    top:150px;
+    left: 450px;
+    /* float: right; */
+    /* clear: both; */
+    /* display: inline-block; */
 }
 
-#etosha {
-    padding-top: 0px;
-    height: 250px;
-    width: 33%;
-    float: right;
-    /* background-color: indigo; */
-    text-align: center;
-    position: relative;
-    top: 150px;
-}
