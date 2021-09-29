@@ -66,14 +66,12 @@ h2 {
 
 /* main -image*/
 #main-image {
-    float: left;
     height: 400px;
     width: 33%;
-    vertical-align: middle;
+    float: left;
     position: relative;
     top: 50px;
     clear: both;
-    /* padding-left: 10px; */
 }
 
 /* home info*/
