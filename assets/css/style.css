@@ -169,8 +169,8 @@ footer {
 
 /* gallery html */
 
-#pictures > .gallery > .row {
-    
+#pictures>.gallery>.row {
+
     line-height: 10px;
     column-count: 3;
     column-gap: 5px;
@@ -205,4 +205,63 @@ img {
     content: "";
     clear: both;
     display: table;
-  }
+}
+
+/* attractions page */
+#attraction-page{
+    width: 100%;
+    height: auto;
+    position: ;
+}
+
+#attraction-img {
+    float: left;
+    /* height: 400px; */
+    clear: both;
+    width: 33%;
+    /* vertical-align: middle; */
+    position: relative;
+    top: 50px;
+    /* padding-left: 10px; */
+    /* line-height: 50px; */
+}
+
+attraction-main-image{
+     width: 100%;
+}
+
+#attractions-intro {
+    text-align: center;
+    width: 67%;
+    /* line-height: 50px; */
+    /* height: 200px; */
+    float:right;
+    /* position: absolute; */
+    /* top: 150px; */
+    /* right: 325px; */
+    /* padding-top: 10px; */
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+}
+
+.attraction-details {
+    width: 357px;
+    background-color: red;
+    /* position: relative;*/
+    /* top:0px; */
+    float: right;
+    clear: both;
+    display: inline-;
+}
+
+#etosha {
+    padding-top: 0px;
+    height: 250px;
+    width: 33%;
+    float: right;
+    /* background-color: indigo; */
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
