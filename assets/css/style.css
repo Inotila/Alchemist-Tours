@@ -245,14 +245,44 @@ attraction-main-image{
     /* top: 50px; */
 }
 
-#attraction-details {
-    width: 357px;
+/* .etosha-div {
+position: relativea;
+} */
+
+.etosha {
+    width: 22%;
     background-color: red;
+    text-align: center;
+    float: right;
     position: absolute;
     top:150px;
-    left: 450px;
-    /* float: right; */
+    left: 445px;
     /* clear: both; */
     /* display: inline-block; */
 }
+
+.swakopmund {
+    width:22%;
+    background-color: blue;
+    text-align: center;
+    /* float: right; */
+    position: absolute;
+    top:150px;
+    left: 750px;
+    /* clear: both; */
+    /* display: inline-block; */
+}
+
+.windhoek {
+    width: 22%;
+    background-color: yellow;
+    text-align: center;
+    /* float: right; */
+    position: absolute;
+    top:150px;
+   right: 0px;
+    /* clear: both; */
+    /* display: inline-block; */
+}
+
 
