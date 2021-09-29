@@ -182,7 +182,7 @@ footer {
 img {
     width: 100%;
     height: auto;
-    padding: 10px;
+    /* padding: 10px; */
     float: right;
     border: 1px solid black;
     clear: both;
@@ -191,10 +191,14 @@ img {
 .row {
     height: 400px;
     width: 100%;
-    margin: 10px;
+    /* margin: 10px; */
+    /* padding: 5px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin-left: 5px; */
     /* display: inline-block; */
     vertical-align: middle;
-    background-color:yellow;
+    /* background-color:yellow; */
 }
 
 .row::after {
