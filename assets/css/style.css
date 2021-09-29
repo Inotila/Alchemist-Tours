@@ -14,16 +14,17 @@ body {
 
 /* Headings*/
 
-header{
+header {
     overflow: hidden;
     border: 1px gray solid;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:slategrey;
+    color: slategrey;
 }
 
 
@@ -31,7 +32,7 @@ h1, h2 {
 
 #logo {
     font-size: 250%;
-    float:left;
+    float: left;
     margin-left: 30px;
     text-decoration: none;
     color: slategrey;
@@ -42,8 +43,9 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#nav-menu, #logo {
-line-height: 75px;
+#nav-menu,
+#logo {
+    line-height: 75px;
 }
 
 #nav-menu li {
@@ -79,17 +81,17 @@ line-height: 75px;
     height: 450px;
     display: flex;
     padding-bottom: 10px;
-    }
+}
 
-    #about-namibia {
-        text-align: center;
-        position: absolute;
-        top: 150px;
-        right: 325px;
-        padding-top: 10px;
-        border-bottom: 1px gray solid;
-    }
-    
+#about-namibia {
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    right: 325px;
+    padding-top: 10px;
+    border-bottom: 1px gray solid;
+}
+
 #weather {
     padding-top: 0px;
     height: 250px;
@@ -106,7 +108,7 @@ line-height: 75px;
     right: 50px;
 }
 
-.right-side > h2 {
+.right-side>h2 {
     /* padding-bottom: 5px; */
     height: 50px;
 }
@@ -133,7 +135,7 @@ line-height: 75px;
     top: 150px;
 }
 
-.right-side{
+.right-side {
     width: 67%;
     float: right;
     line-height: 20px;
@@ -147,13 +149,14 @@ footer {
     border-top: 1px gray solid;
     clear: both;
 }
+
 /* social networks */
 
 .social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -166,16 +169,36 @@ footer {
 
 /* gallery html */
 
-#pictures{
-    clear: both;
-    line-height: 0;
+#pictures > .gallery > .row {
+    
+    line-height: 10px;
     column-count: 3;
-    column-gap: 1px;
+    column-gap: 5px;
     height: auto;
+    clear: both;
 }
 
-#pictures > img {
+#pictures>.gallery,
+img {
     width: 100%;
-    /* height:100px; */
-    margin: 1px;
+    height: auto;
+    padding: 10px;
+    float: right;
+    border: 1px solid black;
+    clear: both;
 }
+
+.row {
+    height: 400px;
+    width: 100%;
+    margin: 10px;
+    /* display: inline-block; */
+    vertical-align: middle;
+    background-color:yellow;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
