@@ -253,11 +253,6 @@ attraction-main-image{
     position: relative;
 }
 
-/* .etosha-div {
-position: relativea;
-} */
-
-
 .etosha {
     width: 33%;
     background-color: red;
@@ -271,15 +266,20 @@ position: relativea;
 }
 
 .swakopmund {
-    width:33%;
+    /* width:33%; */
     background-color: blue;
     text-align: center;
-    float: right;
+    /* float: right; */
     position: absolute;
     top:150px;
-    left: 400px;
+    /* left: 400px; */
     /* clear: both; */
     /* display: inline-block; */
+}
+
+#attractions-main > .swakopmund{
+left: 302.5px;
+width:33%;
 }
 
 .windhoek {
