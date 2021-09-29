@@ -74,6 +74,10 @@ h2 {
     position: relative;
 }
 
+#home-main > div{
+float: left;
+}
+
 /* main -image*/
 #home-image{
     float: left;
@@ -86,6 +90,7 @@ h2 {
     /* padding-left: 10px; */
     /* line-height: 50px; */
 }
+
 #main-image {
     height:auto;
     width: 100%;
@@ -308,3 +313,5 @@ attraction-main-image {
     /* clear: both; */
     /* display: inline-block; */
 }
+
+
