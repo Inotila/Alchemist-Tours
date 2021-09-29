@@ -99,8 +99,6 @@ float: left;
     float: right;
     top: 50px;
     right: 0px;
-    border-bottom: 1px gray solid;
-    background-color: darkgreen;
 }
 
 #home-main{
@@ -110,31 +108,19 @@ float: left;
     position: absolute;
     right: 0px;
     top: 50px;
-    background-color: aqua;
 }
 
 .weather {
     width: 33%;
-    /* background-color: red; */
     text-align: center;
-    /* float: right; */
     position: absolute;
     top: 150px;
-    /* left: 445px; */
-    /* clear: both; */
-    /* display: inline-block; */
 }
 
 .time{
-    /* width:33%; */
-    /* background-color: blue; */
     text-align: center;
-    /* float: right; */
     position: absolute;
     top: 150px;
-    /* left: 400px; */
-    /* clear: both; */
-    /* display: inline-block; */
 }
 
 #home-main>.time {
@@ -144,14 +130,10 @@ float: left;
 
 .location {
     width: 33%;
-    /* background-color: yellow; */
     text-align: center;
-    /* float: right; */
     position: absolute;
     top: 150px;
     right: 0px;
-    /* clear: both; */
-    /* display: inline-block; */
 }
 
 /* footer */
@@ -181,7 +163,6 @@ footer {
 /* gallery html */
 
 #pictures>.gallery>.row {
-
     line-height: 10px;
     column-count: 3;
     column-gap: 5px;
