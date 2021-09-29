@@ -70,7 +70,6 @@ h2 {
 #home-info {
     width: 100%;
     height: 500px;
-    /* background-color: salmon; */
     position: relative;
 }
 
@@ -80,24 +79,17 @@ float: left;
 
 /* main -image*/
 #home-image{
-    float: left;
-    /* height: 400px; */
-    clear: both;
     width: 33%;
-    /* vertical-align: middle; */
+    height: auto;
+    float: left;
+    clear: both;
     position: absolute;
     top: 50px;
-    /* padding-left: 10px; */
-    /* line-height: 50px; */
 }
 
 #main-image {
-    height:auto;
     width: 100%;
-    position: absolute;
-    float: left;
-    /* top: 50px; */
-    /* clear: both; */
+    height:auto;
 }
 
 #about-namibia {
