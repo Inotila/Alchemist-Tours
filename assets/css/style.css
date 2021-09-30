@@ -324,13 +324,38 @@ attraction-main-image {
     background-color: blue;
 }
 
+form{
+    width: 100%;
+    position:absolute;
+    background-color: darkgreen
+}
+
+.cient-details{
+    width: 80%;
+    height: auto;
+    background-color: burlywood;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.cient-details > input {
+    margin-left: 50px;
+}
+
+.cient-details > label {
+    position: absolute;
+    top:10px;
+    left:50px;
+}
+
 input,
 select,
-textarea {
+textarea{
     border-radius: 2px;
     border: 2px solid #777;
     box-sizing: border-box;
     width: auto;
     padding: 10px;
-    align-items: center;
+    /* margin-left: 50px; */
 }
