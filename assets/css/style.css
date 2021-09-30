@@ -13,12 +13,6 @@ body {
 }
 
 /* Headings*/
-
-header {
-    overflow: hidden;
-    border: 1px gray solid;
-}
-
 h1,
 h2 {
     font-family: 'Bebas Neue', sans-serif;
@@ -27,15 +21,24 @@ h2 {
     color: slategrey;
 }
 
+header {
+    overflow: hidden;
+    background-color: #777
+}
+
+/* footer */
+footer {
+    clear: both;
+    background-color: #777;
+}
 
 /* logo and menu */
-
 #logo {
     font-size: 250%;
     float: left;
     margin-left: 30px;
     text-decoration: none;
-    color: slategrey;
+    color: white;
 }
 
 #nav-menu {
@@ -60,11 +63,8 @@ h2 {
 }
 
 #nav-menu a:hover {
-    color: green;
+    color: white
 }
-
-
-
 
 /* home info*/
 #home-info {
@@ -136,12 +136,6 @@ h2 {
     right: 0px;
 }
 
-/* footer */
-footer {
-    height: 150px;
-    border-top: 1px gray solid;
-    clear: both;
-}
 
 /* social networks */
 
@@ -156,8 +150,8 @@ footer {
 .social-networks i {
     font-size: 150%;
     margin: 0;
-    padding: 4%;
-    color: slategrey;
+    padding: 2%;
+    color: white;
 }
 
 /* gallery html */
