@@ -63,7 +63,11 @@ footer {
 }
 
 #nav-menu a:hover {
-    color: white
+    border-bottom: 1px white solid;
+}
+
+#nav-menu .active {
+    color: white;
 }
 
 /* home info*/
