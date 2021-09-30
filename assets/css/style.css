@@ -340,13 +340,13 @@ form{
 }
 
 .cient-details > input {
-    margin-left: 50px;
+    margin-left: 300px;
 }
 
 .cient-details > label {
     position: absolute;
     top:10px;
-    left:50px;
+    left:130px;
 }
 
 input,
