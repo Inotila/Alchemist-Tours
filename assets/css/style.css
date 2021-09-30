@@ -77,7 +77,7 @@ footer {
     position: relative;
 }
 
-#home-main>div {
+#home-main > div {
     float: left;
 }
 
@@ -94,6 +94,7 @@ footer {
 #main-image {
     width: 100%;
     height: auto;
+    border: none;
 }
 
 #about-namibia {
