@@ -73,12 +73,12 @@ h2 {
     position: relative;
 }
 
-#home-main > div{
-float: left;
+#home-main>div {
+    float: left;
 }
 
 /* main -image*/
-#home-image{
+#home-image {
     width: 33%;
     height: auto;
     float: left;
@@ -89,7 +89,7 @@ float: left;
 
 #main-image {
     width: 100%;
-    height:auto;
+    height: auto;
 }
 
 #about-namibia {
@@ -101,7 +101,7 @@ float: left;
     right: 0px;
 }
 
-#home-main{
+#home-main {
     width: 67%;
     height: auto;
     /* float: right; */
@@ -117,13 +117,13 @@ float: left;
     top: 150px;
 }
 
-.time{
+.time {
     text-align: center;
-    position: absolute;
     top: 150px;
 }
 
 #home-main>.time {
+    position: absolute;
     left: 302.5px;
     width: 33%;
 }
@@ -294,18 +294,18 @@ attraction-main-image {
     height: 500px;
     background-color: salmon;
     position: relative;
-    top:50px;
+    top: 50px;
 }
 
 .booking-image {
     width: 33%;
     height: auto;
-    position:absolute;
+    position: absolute;
     float: left;
 }
 
 #shuttle-image {
-    width:100%;
+    width: 100%;
     position: absolute;
 }
 
@@ -317,3 +317,9 @@ attraction-main-image {
     float: right;
 }
 
+#shuttle-booking-form {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: blue;
+}
