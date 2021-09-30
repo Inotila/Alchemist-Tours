@@ -71,10 +71,11 @@ footer {
 }
 
 /* home info*/
-#home-info {
+#home-page {
     width: 100%;
-    height: 500px;
+    height: 550px;
     position: relative;
+    background-color: teal;
 }
 
 #home-main > div {
@@ -201,9 +202,10 @@ img {
 /* attractions page */
 #attraction-page {
     width: 100%;
-    height: 500px;
-    /* background-color: salmon; */
+    height: 550px;
     position: relative;
+    /* background-color: salmon; */
+    
 }
 
 #attraction-img {
@@ -288,18 +290,19 @@ attraction-main-image {
 
 /* booking page */
 
-.booking-main {
+.booking-page {
     width: 100%;
     height: 550px;
-    /* background-color: salmon; */
+    background-color: teal;
     position: relative;
-    top: 50px;
+    /* top: 50px; */
 }
 
 .booking-image {
     width: 33%;
     height: auto;
     position: absolute;
+    top: 50px;
     float: left;
 }
 
@@ -312,8 +315,11 @@ attraction-main-image {
 .booking-form {
     width: 67%;
     height: 400px;
+    position: relative;
+    top: 50px;
     /* background-color: chocolate; */
     float: right;
+    
 }
 
 #shuttle-booking-form {
