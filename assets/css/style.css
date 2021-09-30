@@ -323,3 +323,14 @@ attraction-main-image {
     margin: 0 auto;
     background-color: blue;
 }
+
+input,
+select,
+textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    width: auto;
+    padding: 10px;
+    align-items: center;
+}
