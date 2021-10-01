@@ -162,19 +162,25 @@ footer {
 
 /* gallery html */
 
-#galler-page {
+#gallery-page {
     width: 100%;
-    height: 300px;
+    height: 1000px;
     position: relative;
-    /* background-color: teal; */
+    background-color: teal;
+}
+
+#gallery-container {
+    width: 100%;
+    background-color: tomato;
+    position: absolute;
+    top: 50px;
+    /* float: left; */
 }
 
 .gallery-video {
     width: 33%;
-    /* background-color: tomato; */
-    position: absolute;
-    top: 50px;
-    float: left;
+    height: auto;
+    float: left;;
 }
 
 #imapal-video {
@@ -187,7 +193,7 @@ footer {
     /* height: 400px; */
     position: relative;
     /* top: 50px; */
-    /* background-color: violet; */
+    background-color: violet;
     /* clear: both; */
 }
 
@@ -223,7 +229,7 @@ img {
     /* margin-left: 5px; */
     /* display: inline-block; */
     vertical-align: middle;
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 
 /* .row::after {
