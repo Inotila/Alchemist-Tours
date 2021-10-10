@@ -123,37 +123,43 @@ footer {
 #about-namibia-text {
     width: 67%;
     text-align: center;
-    background-color: #777;
     position: relative;
     top: 50px;
     float: right;
 }
 
-#weather {
+#about-namibia-text > p{
+    padding:10px;  
+  }
+
+
+  #weather {
     width: 33%;
     text-align: center;
     position: relative;
     float: left;
+     padding-left:10px;
 }
+
 
 #time {
     text-align: center;
     position: relative;
     float: left;
+    width: 33%;
+    
    
 }
 
-#home-main>#time {
-    left: 302.5px;
-    width: 33%;
-}
 
 #location {
     width: 33%;
     text-align: center;
     position: relative;
     float: left;
+  
 }
+
 
 
 /* social networks */
