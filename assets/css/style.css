@@ -6,7 +6,7 @@
     border: none;
 }
 
-body  {
+body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: goldenrod;
@@ -86,28 +86,14 @@ footer {
     position: relative;
 }
 
-#home-container {
-    width: 100%;
-    height: 100%;
-    background-color: tomato;
-    position: absolute;
-    /* top: 50px; */
-    /* bottom: 50px; */
-clear: both;
-}
-
 /* main -image*/
 #home-image {
     width: 33%;
-    /* height: auto; */
     float: left;
-    ;
-    /* padding-bottom: 0px; */
     margin-bottom: 50px;
     position: relative;
     top: 50px;
     clear: both;
-    background-color: maroon;
 }
 
 #main-image {
@@ -122,8 +108,6 @@ clear: both;
     position: relative;
     float: right;
     top: 50px;
-    /* right: 0px; */
-    background-color: aquamarine;
 }
 
 
@@ -136,28 +120,30 @@ clear: both;
     right: 0px;
 }
 
-#about-namibia-text {width: 67%;
-text-align: center;
-background-color: #777;
-position: relative;
-top: 50px;
-float: right;}
+#about-namibia-text {
+    width: 67%;
+    text-align: center;
+    background-color: #777;
+    position: relative;
+    top: 50px;
+    float: right;
+}
 
 #weather {
     width: 33%;
     text-align: center;
-    position: absolute;
-    top: 150px;
+    position: relative;
+    float: left;
 }
 
 #time {
     text-align: center;
-    /* position: absolute;
-    top: 150px; */
+    position: relative;
+    float: left;
+   
 }
 
 #home-main>#time {
-    /* position: absolute; */
     left: 302.5px;
     width: 33%;
 }
@@ -165,9 +151,8 @@ float: right;}
 #location {
     width: 33%;
     text-align: center;
-    position: absolute;
-    top: 150px;
-    right: 0px;
+    position: relative;
+    float: left;
 }
 
 
@@ -229,7 +214,7 @@ float: right;}
     float: right;
 }
 
-#gallery-text > p {
+#gallery-text>p {
     padding: 10px;
 }
 
@@ -264,7 +249,7 @@ img {
     width: 100%;
     margin-bottom: 50px;
     vertical-align: middle;
-  
+
 }
 
 /* attractions page */
