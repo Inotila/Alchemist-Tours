@@ -80,7 +80,6 @@ footer {
 }
 
 /* home info*/
-
 #home-page {
     width: 100%;
     position: relative;
@@ -110,7 +109,6 @@ footer {
     top: 50px;
 }
 
-
 #about-namibia {
     width: 100%;
     text-align: center;
@@ -133,7 +131,7 @@ footer {
 }
 
 .home-details {
-top: 61px;
+/* top: 61px; */
 }
 
 #weather {
@@ -143,7 +141,6 @@ top: 61px;
     float: left;
     padding-left: 10px;
 }
-
 
 #time {
     text-align: center;
@@ -160,13 +157,9 @@ top: 61px;
     text-align: center;
     position: relative;
     float: left;
-
 }
 
-
-
 /* social networks */
-
 .social-networks {
     text-align: center;
 }
@@ -183,28 +176,18 @@ top: 61px;
 }
 
 /* gallery html */
-
 #gallery-page {
     width: 100%;
-    /* height: 1000px; */
     position: relative;
-    /* clear: both; */
 }
 
 #gallery-container {
     width: 100%;
-    background-color: tomato;
-    /* position: absolute; */
-    /* top: 50px; */
-    /* float: left; */
 }
 
 .gallery-video {
     width: 33%;
-    /* height: auto; */
     float: left;
-    ;
-    /* padding-bottom: 0px; */
     margin-bottom: 50px;
     position: relative;
     top: 50px;
@@ -223,10 +206,9 @@ top: 61px;
     float: right;
 }
 
-#gallery-text>p {
+#gallery-text > p {
     padding: 10px;
 }
-
 
 #pictures {
     width: 100%;
@@ -239,14 +221,14 @@ top: 61px;
     padding-top: 50px;
 }
 
-#pictures>.gallery-photos>.row {
+#pictures > .gallery-photos>.row {
     line-height: 10px;
     column-count: 3;
     column-gap: 10px;
     height: auto;
 }
 
-#pictures>.gallery-photos,
+#pictures > .gallery-photos,
 img {
     width: 100%;
     height: auto;
@@ -269,14 +251,10 @@ img {
 
 #attraction-img {
     float: left;
-    /* height: 400px; */
     clear: both;
     width: 33%;
-    /* vertical-align: middle; */
     position: absolute;
     top: 50px;
-    /* padding-left: 10px; */
-    /* line-height: 50px; */
 }
 
 #attraction-main-image {
@@ -286,12 +264,9 @@ img {
 #attractions-text {
     text-align: center;
     width: 67%;
-    height: 100px;
     float: right;
     top: 50px;
     right: 0px;
-    /* padding-top: 10px; */
-    /* background-color: aqua; */
     position: absolute;
 }
 
@@ -304,31 +279,19 @@ img {
     height: auto;
     float: right;
     position: relative;
-    background-color: aqua;
 }
 
 .etosha {
     width: 33%;
-    /* background-color: red; */
     text-align: center;
-    /* float: right; */
     position: absolute;
     top: 150px;
-    /* left: 445px; */
-    /* clear: both; */
-    /* display: inline-block; */
 }
 
 .swakopmund {
-    /* width:33%; */
-    /* background-color: blue; */
     text-align: center;
-    /* float: right; */
     position: absolute;
     top: 150px;
-    /* left: 400px; */
-    /* clear: both; */
-    /* display: inline-block; */
 }
 
 #attractions-main>.swakopmund {
@@ -338,24 +301,17 @@ img {
 
 .windhoek {
     width: 33%;
-    /* background-color: yellow; */
     text-align: center;
-    /* float: right; */
     position: absolute;
     top: 150px;
     right: 0px;
-    /* clear: both; */
-    /* display: inline-block; */
 }
 
 /* booking page */
-
 .booking-page {
     width: 100%;
     height: 550px;
-    /* background-color: teal; */
     position: relative;
-    /* top: 50px; */
 }
 
 .booking-image {
@@ -371,45 +327,39 @@ img {
     position: absolute;
 }
 
-
 .booking-form {
     width: 67%;
     height: 400px;
     position: relative;
     top: 50px;
-    /* background-color: chocolate; */
     float: right;
-
 }
 
 #shuttle-booking-form {
     text-align: center;
     position: relative;
     margin: 0 auto;
-    /* background-color: blue; */
 }
 
 form {
     width: 100%;
     position: absolute;
-    /* background-color: darkgreen */
+    
 }
 
 .cient-details {
     width: 80%;
     height: auto;
-    /* background-color: burlywood; */
     position: relative;
     margin: 0 auto;
-
 }
 
-.cient-details>input {
+.cient-details > input {
     margin-left: 300px;
     margin-bottom: 10px;
 }
 
-.cient-details>label {
+.cient-details > label {
     position: absolute;
     top: 10px;
     left: 130px;
@@ -423,7 +373,6 @@ textarea {
     box-sizing: border-box;
     width: auto;
     padding: 10px;
-    /* margin-left: 50px; */
 }
 
 button {
