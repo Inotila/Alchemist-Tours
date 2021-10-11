@@ -128,17 +128,20 @@ footer {
     float: right;
 }
 
-#about-namibia-text > p{
-    padding:10px;  
-  }
+#about-namibia-text>p {
+    padding: 10px;
+}
 
+.home-details {
+top: 61px;
+}
 
-  #weather {
+#weather {
     width: 33%;
     text-align: center;
     position: relative;
     float: left;
-     padding-left:10px;
+    padding-left: 10px;
 }
 
 
@@ -147,8 +150,8 @@ footer {
     position: relative;
     float: left;
     width: 33%;
-    
-   
+
+
 }
 
 
@@ -157,7 +160,7 @@ footer {
     text-align: center;
     position: relative;
     float: left;
-  
+
 }
 
 
