@@ -233,7 +233,6 @@ img {
 /* attractions page */
 #attraction-page {
     width: 100%;
-    height: 550px;
     position: relative;
 }
 
@@ -264,12 +263,9 @@ img {
     padding: 10px;
 }
 
-/* #attractions-main {
-    width: 67%;
-    height: auto;
-    float: right;
-    position: relative;
-} */
+#must-see {
+    font-weight: bold;
+}
 
 .etosha {
     width: 33%;
