@@ -109,15 +109,6 @@ footer {
     top: 50px;
 }
 
-#about-namibia {
-    width: 100%;
-    text-align: center;
-    position: relative;
-    float: right;
-    top: 50px;
-    right: 0px;
-}
-
 #about-namibia-text {
     width: 67%;
     text-align: center;
@@ -147,10 +138,7 @@ footer {
     position: relative;
     float: left;
     width: 33%;
-
-
 }
-
 
 #location {
     width: 33%;
@@ -250,61 +238,59 @@ img {
 }
 
 #attraction-img {
-    float: left;
-    clear: both;
     width: 33%;
-    position: absolute;
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
     top: 50px;
+    clear: both;
 }
 
 #attraction-main-image {
     width: 100%;
+    height: auto;
+    border: none;
 }
 
 #attractions-text {
-    text-align: center;
     width: 67%;
-    float: right;
+    text-align: center;
+    position: relative;
     top: 50px;
-    right: 0px;
-    position: absolute;
+    float: right;
 }
 
 #attractions-text > p {
     padding: 10px;
 }
 
-#attractions-main {
+/* #attractions-main {
     width: 67%;
     height: auto;
     float: right;
     position: relative;
-}
+} */
 
 .etosha {
     width: 33%;
     text-align: center;
-    position: absolute;
-    top: 150px;
+    position: relative;
+    float: left;
+    padding-left: 10px;
 }
 
 .swakopmund {
     text-align: center;
-    position: absolute;
-    top: 150px;
-}
-
-#attractions-main>.swakopmund {
-    left: 302.5px;
+    position: relative;
+    float: left;
     width: 33%;
 }
 
 .windhoek {
     width: 33%;
     text-align: center;
-    position: absolute;
-    top: 150px;
-    right: 0px;
+    position: relative;
+    float: left;
 }
 
 /* booking page */
