@@ -163,6 +163,12 @@ footer {
     color: white;
 }
 
+.ino-link i{
+    font-size: 150%;
+    margin: 0;
+    padding: 2%;
+    color:#777;
+}
 /* gallery html */
 #gallery-page {
     width: 100%;
