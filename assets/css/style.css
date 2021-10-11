@@ -371,3 +371,14 @@ button {
     border-radius: 5px;
     padding: 10px;
 }
+
+
+/*medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #nav-menu {
+        clear: both;
+        margin-left: 0px;
+        line-height: 25px;
+        letter-spacing:0
+    }
