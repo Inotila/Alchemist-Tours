@@ -101,7 +101,7 @@ footer {
     border: none;
 }
 
-#about-namibia-text {
+.hero-text {
     width: 67%;
     text-align: center;
     position: relative;
@@ -291,13 +291,6 @@ img {
     border: none;
 }
 
-#attractions-text {
-    width: 67%;
-    text-align: center;
-    position: relative;
-    top: 50px;
-    float: right;
-}
 
 #attractions-text > p {
     padding: 10px;
@@ -350,7 +343,7 @@ img {
         width:100%;
     }
 
-    #about-namibia-text {
+    .hero-text {
         width:100%;
         display:grid
     }
@@ -358,4 +351,13 @@ img {
     #about-namibia-text > .hero-details {
         width:100%
     }
+
+    #pictures > .gallery-photos>.row {
+    width: 100%;
+    height: auto;
+    line-height: 10px;
+    column-count: 1;
+    column-gap: 10px;
+    margin-bottom: 40px;
+}
 }
