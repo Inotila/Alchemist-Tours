@@ -101,14 +101,6 @@ footer {
     border: none;
 }
 
-#about-namibia-main {
-    width: 67%;
-    text-align: center;
-    position: relative;
-    float: right;
-    top: 50px;
-}
-
 #about-namibia-text {
     width: 67%;
     text-align: center;
@@ -381,5 +373,19 @@ button {
         margin-left: 0px;
         line-height: 25px;
         letter-spacing:0;
+    }
+
+    #home-image {
+        width:100%;
+    }
+
+    
+    #about-namibia-text {
+        width:100%;
+        display:grid
+    }
+
+    #about-namibia-text > .home-details {
+        width:100%
     }
 }
