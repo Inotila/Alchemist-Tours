@@ -155,12 +155,6 @@ footer {
     color: white;
 }
 
-.ino-link i{
-    font-size: 150%;
-    margin: 0;
-    padding: 2%;
-    color:#777;
-}
 /* gallery html */
 #gallery-page {
     width: 100%;
@@ -364,7 +358,6 @@ button {
     padding: 10px;
 }
 
-
 /*medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -374,6 +367,14 @@ button {
         line-height: 25px;
         letter-spacing:0;
     }
+
+      #home-page {
+        min-height:auto;
+        overflow: scroll;
+        margin-bottom: 50px;
+     
+    }
+    
 
     #home-image {
         width:100%;
