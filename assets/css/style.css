@@ -85,15 +85,15 @@ footer {
     position: relative;
 }
 
-/* main -image*/
-#home-image {
+.hero-image {
     width: 33%;
     float: left;
-
     position: relative;
     top: 50px;
     clear: both;
 }
+
+/* main -image*/
 
 #main-image {
     width: 100%;
@@ -144,14 +144,6 @@ footer {
     width: 100%;
     height: auto;
     position: relative;
-}
-
-#booking-image {
-    width: 33%;
-    height: auto;
-    position: relative;
-    top: 50px;
-    float: left;
 }
 
 #shuttle-image {
@@ -242,15 +234,6 @@ button {
     width: 100%;
 }
 
-#gallery-video {
-    width: 33%;
-    float: left;
-    margin-bottom: 50px;
-    position: relative;
-    top: 50px;
-    clear: both;
-}
-
 #imapal-video {
     width: 100%;
 }
@@ -301,14 +284,6 @@ img {
     position: relative;
 }
 
-#attraction-img {
-    width: 33%;
-    float: left;
-    margin-bottom: 50px;
-    position: relative;
-    top: 50px;
-    clear: both;
-}
 
 #attraction-main-image {
     width: 100%;
@@ -371,12 +346,10 @@ img {
      
     }
     
-
-    #home-image {
+    .hero-image {
         width:100%;
     }
 
-    
     #about-namibia-text {
         width:100%;
         display:grid
