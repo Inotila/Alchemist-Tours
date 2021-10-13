@@ -360,4 +360,11 @@ img {
     column-gap: 10px;
     margin-bottom: 40px;
 }
+
+#gallery-text {
+    width:100%;
+    top:50px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
 }
