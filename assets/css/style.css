@@ -139,148 +139,6 @@ footer {
     float: left;
 }
 
-/* social networks */
-.social-networks {
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 150%;
-    margin: 0;
-    padding: 2%;
-    color: white;
-}
-
-/* gallery html */
-#gallery-page {
-    width: 100%;
-    position: relative;
-}
-
-#gallery-container {
-    width: 100%;
-}
-
-.gallery-video {
-    width: 33%;
-    float: left;
-    margin-bottom: 50px;
-    position: relative;
-    top: 50px;
-    clear: both;
-}
-
-#imapal-video {
-    width: 100%;
-}
-
-#gallery-text {
-    width: 67%;
-    text-align: center;
-    position: relative;
-    top: 110px;
-    float: right;
-}
-
-#gallery-text > p {
-    padding: 10px;
-}
-
-#pictures {
-    width: 100%;
-    position: relative;
-    clear: both;
-}
-
-.gallery-photos {
-    clear: both;
-    padding-top: 50px;
-}
-
-#pictures > .gallery-photos>.row {
-    line-height: 10px;
-    column-count: 3;
-    column-gap: 10px;
-    height: auto;
-}
-
-#pictures > .gallery-photos,
-img {
-    width: 100%;
-    height: auto;
-    float: right;
-}
-
-.row {
-    height: 400px;
-    width: 100%;
-    margin-bottom: 50px;
-    vertical-align: middle;
-}
-
-/* attractions page */
-#attraction-page {
-    width: 100%;
-    position: relative;
-}
-
-#attraction-img {
-    width: 33%;
-    float: left;
-    margin-bottom: 50px;
-    position: relative;
-    top: 50px;
-    clear: both;
-}
-
-#attraction-main-image {
-    width: 100%;
-    height: auto;
-    border: none;
-}
-
-#attractions-text {
-    width: 67%;
-    text-align: center;
-    position: relative;
-    top: 50px;
-    float: right;
-}
-
-#attractions-text > p {
-    padding: 10px;
-}
-
-#must-see {
-    font-weight: bold;
-}
-
-.etosha {
-    width: 33%;
-    text-align: center;
-    position: relative;
-    float: left;
-    padding-left: 10px;
-}
-
-.swakopmund {
-    text-align: center;
-    position: relative;
-    float: left;
-    width: 33%;
-}
-
-.windhoek {
-    width: 33%;
-    text-align: center;
-    position: relative;
-    float: left;
-}
-
 /* booking page */
 .booking-page {
     width: 100%;
@@ -288,7 +146,7 @@ img {
     position: relative;
 }
 
-.booking-image {
+#booking-image {
     width: 33%;
     height: auto;
     position: absolute;
@@ -358,6 +216,149 @@ button {
     padding: 10px;
 }
 
+/* social networks */
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 0;
+    padding: 2%;
+    color: white;
+}
+
+/* gallery html */
+#gallery-page {
+    width: 100%;
+    position: relative;
+}
+
+#gallery-container {
+    width: 100%;
+}
+
+#gallery-video {
+    width: 33%;
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+    top: 50px;
+    clear: both;
+}
+
+#imapal-video {
+    width: 100%;
+}
+
+#gallery-text {
+    width: 67%;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    float: right;
+}
+
+#gallery-text > p {
+    padding: 10px;
+}
+
+#pictures {
+    width: 100%;
+    position: relative;
+    clear: both;
+}
+
+.gallery-photos {
+    clear: both;
+    padding-top: 50px;
+}
+
+#pictures > .gallery-photos>.row {
+    line-height: 10px;
+    column-count: 3;
+    column-gap: 10px;
+    height: auto;
+}
+
+#pictures > .gallery-photos,
+img {
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.row {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+
+/* attractions page */
+#attraction-page {
+    width: 100%;
+    position: relative;
+}
+
+#attraction-img {
+    width: 33%;
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+    top: 50px;
+    clear: both;
+}
+
+#attraction-main-image {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+#attractions-text {
+    width: 67%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    float: right;
+}
+
+#attractions-text > p {
+    padding: 10px;
+}
+
+#must-see {
+    font-weight: bold;
+}
+
+#etosha {
+    width: 33%;
+    text-align: center;
+    position: relative;
+    float: left;
+    padding-left: 10px;
+}
+
+#swakopmund {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 33%;
+}
+
+#windhoek {
+    width: 33%;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
 /*medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -386,7 +387,7 @@ button {
         display:grid
     }
 
-    #about-namibia-text > .home-details {
+    #about-namibia-text > .hero-details {
         width:100%
     }
 }
