@@ -85,11 +85,24 @@ footer {
 /* booking page */
 
 /* social networks */
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 0;
+    padding: 2%;
+    color: white;
+}
 
 /* gallery html */
 
 /* attractions page */
-
 
 /*medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
