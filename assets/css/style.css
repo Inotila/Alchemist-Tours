@@ -80,64 +80,7 @@ footer {
 }
 
 /* home info*/
-#home-page {
-    width: 100%;
-    position: relative;
-}
 
-.hero-image {
-    width: 33%;
-    float: left;
-    position: relative;
-    top: 50px;
-    clear: both;
-}
-
-/* main -image*/
-
-#main-image {
-    width: 100%;
-    height: auto;
-    border: none;
-}
-
-.hero-text {
-    width: 67%;
-    text-align: center;
-    position: relative;
-    top: 50px;
-    float: right;
-}
-
-#about-namibia-text>p {
-    padding: 10px;
-}
-
-.home-details {
-/* top: 61px; */
-}
-
-#weather {
-    width: 33%;
-    text-align: center;
-    position: relative;
-    float: left;
-    padding-left: 10px;
-}
-
-#time {
-    text-align: center;
-    position: relative;
-    float: left;
-    width: 33%;
-}
-
-#location {
-    width: 33%;
-    text-align: center;
-    position: relative;
-    float: left;
-}
 
 /* booking page */
 .booking-page {
