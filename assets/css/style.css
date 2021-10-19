@@ -82,8 +82,9 @@ footer {
 /* home info*/
 .hero-banner {
     width: 100%;
-    height: 400px;
-    background-image: url(../images/Alchemist\ Namibia\ logo\ 2020\ v2-01.jpg) no-repear center center;
+    height: 200px;
+    background-image: url('../images/Webp.net-resizeimage\ \(16\).jpg');
+    background-size: contain;
 }
 
 /* booking page */
