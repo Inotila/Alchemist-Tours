@@ -92,17 +92,54 @@ footer {
     text-align: center;
 }
 
-#welcoming_text > p{
-    font-size:110%;
+#welcoming_text>p {
+    font-size: 110%;
     padding: 10px 30px 10px
- }
+}
 
- a {
+a {
     text-decoration: none;
-    color:#B7A354;
+    color: #B7A354;
     font-weight: bold;
 }
 
+
+#links_to_other_pages {
+    width: auto;
+    position: relative;
+    margin: auto;
+}
+
+#right_contianer {
+    background-image: url('../images/Webp.net-resizeimage\ \(4\).jpg') ;
+}
+
+#center_contianer {
+    background-image: url('../images/Webp.net-resizeimage\ \(4\).jpg') ;
+}
+
+#left_contianer {
+    background-image: url('../images/Webp.net-resizeimage\ \(4\).jpg') ;
+}
+
+.link_container {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #B7A354;
+    border-width: 1px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px 30px 10px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+.link_container > h3 {
+    color: #fff;
+}
 
 /* booking page */
 
@@ -134,18 +171,18 @@ footer {
         font-size: 200%;
         text-decoration: none;
         color: white;
-    }      
+    }
 
     #nav-menu {
         width: 100%;
         line-height: 20px;
-        letter-spacing:1px;
-        position:relative;
-        right:20px;
+        letter-spacing: 1px;
+        position: relative;
+        right: 20px;
     }
 
     #nav-menu li {
-    list-style-type: none;
-    margin-right: 10px;
-}
+        list-style-type: none;
+        margin-right: 10px;
+    }
 }
