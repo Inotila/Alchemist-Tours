@@ -85,6 +85,16 @@ footer {
     height: 200px;
     background-image: url('../images/Webp.net-resizeimage\ \(16\).jpg');
     background-size: contain;
+    animation: slide 20s linear  infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: 1600px ;
+  }
 }
 
 #welcoming_text {
