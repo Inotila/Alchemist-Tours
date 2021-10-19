@@ -107,6 +107,13 @@ footer {
 /*medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
+    #logo {
+        text-align:center;
+        font-size: 200%;
+        text-decoration: none;
+        color: white;
+    }    
+
     #nav-menu {
         clear: both;
         margin-left: 0px;
