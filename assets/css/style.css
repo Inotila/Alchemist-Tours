@@ -92,7 +92,7 @@ footer {
     text-align: center;
 }
 
-#welcoming_text>p {
+#welcoming_text> p {
     font-size: 110%;
     padding: 10px 30px 10px
 }
@@ -140,14 +140,13 @@ a {
     text-align: center;
 }
 
-.link_container > h3:hover { 
+.link_container > a > h3:hover { 
     color:  #fff;
     transform: scale(1.2);
     font-weight:bold;
 }
 
-
-.link_container > h3 {
+.link_container > a > h3 {
     color: #fff;
     font-weight:bold;
  }
