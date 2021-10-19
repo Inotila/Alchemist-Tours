@@ -111,15 +111,18 @@ a {
 }
 
 #right_contianer {
-    background-image: url('../images/Webp.net-resizeimage\ \(4\).jpg') ;
+    background-image: url('../images/Webp.net-resizeimage\ \(5\).jpg') ;
+    background-size: cover;
 }
 
 #center_contianer {
-    background-image: url('../images/Webp.net-resizeimage\ \(4\).jpg') ;
+    background-image: url('../images/13131212_950677328378620_3487526895747999700_o.jpg') ;
+    background-size: cover;
 }
 
 #left_contianer {
     background-image: url('../images/Webp.net-resizeimage\ \(4\).jpg') ;
+    background-size: cover;
 }
 
 .link_container {
@@ -127,7 +130,7 @@ a {
     height: 150px;
     border-style: solid;
     border-color: #B7A354;
-    border-width: 1px;
+    border-width: 5px;
     border-radius: 50%;
     float: left;
     margin: 10px 30px 10px;
@@ -137,9 +140,17 @@ a {
     text-align: center;
 }
 
+.link_container > h3:hover { 
+    color:  #fff;
+    transform: scale(1.2);
+    font-weight:bold;
+}
+
+
 .link_container > h3 {
     color: #fff;
-}
+    font-weight:bold;
+ }
 
 /* booking page */
 
