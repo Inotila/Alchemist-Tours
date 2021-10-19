@@ -87,6 +87,16 @@ footer {
     background-size: contain;
 }
 
+#welcoming_text {
+    width: 100%;
+    text-align: center;
+}
+
+#welcoming_text > p{
+    font-size:110%;
+    padding: 10px 30px 10px
+ }
+
 /* booking page */
 
 /* social networks */
