@@ -170,6 +170,12 @@ a {
     margin-bottom: 10px;
 }
 
+#booking-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 form {
     width: 50%;
     position: relative;
