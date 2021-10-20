@@ -162,7 +162,17 @@ a {
  }
 
 /* booking page */
+#booking-form-container {
+    width: 50%;
+    height: auto; 
+    position: relative;
+    float: left;
+    clear: both;
+}
 
+.client-details {
+
+}
 /* social networks */
 .social-networks {
     text-align: center;
@@ -237,5 +247,4 @@ a {
     font-size: 100%;
  }
     
-}
 }
