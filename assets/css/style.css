@@ -166,8 +166,8 @@ a {
     width: 100%;
     height: auto; 
     position: relative;
-    /* float: left; */
     clear: both;  
+    margin-bottom: 10px;
 }
 
 form {
@@ -176,6 +176,11 @@ form {
     float: left;
 }
 
+#booking-image {
+   position:relative;
+   float:right;
+   margin-right:10px
+}
 .client-details {
     font-size: 110%;
     text-align:center;
@@ -190,6 +195,10 @@ input {
     padding: 5px;
 }
 
+#request {
+    width: 250px;
+    height: 50px;
+}
 button {
     margin-top:10px;
     border-radius: 50px;
