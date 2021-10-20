@@ -163,12 +163,17 @@ a {
 
 /* booking page */
 #booking-form-container {
-    width: 50%;
+    width: 100%;
     height: auto; 
     position: relative;
+    /* float: left; */
+    clear: both;  
+}
+
+form {
+    width: 50%;
+    position: relative;
     float: left;
-    clear: both;
-    margin-left: 10px;    
 }
 
 .client-details {
