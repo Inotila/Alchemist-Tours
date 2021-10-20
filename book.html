@@ -39,22 +39,28 @@
     <div id="booking-form-container">
         <form action="reserver.shuttle" method="POST" class="client-details">
             <label for="name">Enter Name:</label>
+            <br>
             <input type="text" id="name" name="passenger_name" placeholder="Happy Traveler" required>
             <br>
             <label for="email">Enter Email:</label>
+            <br>
             <input type="email" id="email" name="passenger_email" placeholder="happytraveler@email.com" required>
             <br>
             <label for="number_of_passengers">No of Passengers:</label>
+            <br>
             <input type="number" id="number_of_passengers" name="number_of_passengers" placeholder="4" min="1" max="11"
                 required>
             <br>
             <label for="date">Pick-up time:</label>
+            <br>
             <input type="datetime-local" id="date" name="passenger_pickup_time" placeholder="" required>
             <br>
             <label for="pick-up">Pick-up address:</label>
+            <br>
             <input type="street" id="pick-up" name="pick-up-location" placeholder="Windhoek International Airport" required>
             <br>
             <label for="drop-off">Drop-off address:</label>
+            <br>
             <input type="street" id="drop-off" name="drop_off_street" placeholder="Hiton Hotel, Sam Nujoma Ave" required>
             <br>
             <button type="submit">Book Transport</button>
