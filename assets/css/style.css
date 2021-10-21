@@ -222,6 +222,16 @@ button:hover {
     background-color:#a4c558; 
     color: #fff  ;
 }
+
+/* gallery html */
+
+/* about Namibia */
+
+#about-namibia-text{
+    width:100%;
+    text-align: center;
+}
+
 /* social networks */
 .social-networks {
     text-align: center;
@@ -237,10 +247,6 @@ button:hover {
     padding: 2%;
     color: white;
 }
-
-/* gallery html */
-
-/* attractions page */
 
 /*medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
@@ -295,6 +301,8 @@ button:hover {
     color: #fff;
     font-size: 100%;
  }
+
+ /* booking page */
 
  form {
     width: 100%;
