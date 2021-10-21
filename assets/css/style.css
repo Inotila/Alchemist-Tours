@@ -295,5 +295,16 @@ button:hover {
     color: #fff;
     font-size: 100%;
  }
+
+ form {
+    width: 100%;
+    margin-bottom:10px;
+}
+
+
+#booking-image {
+   width:100%;
+   margin-right: 0px;
+}
     
 }
