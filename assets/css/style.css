@@ -227,9 +227,13 @@ button:hover {
 
 /* about Namibia */
 
-#about-namibia-text {
+#about-namibia-text{
     width:100%;
-    text-align: center;
+    text-align: center;}
+   
+
+#about-namibia-text > p {
+    padding: 10px 30px 10px;
 }
 
 /* social networks */
@@ -247,7 +251,6 @@ button:hover {
     padding: 2%;
     color: white;
 }
-
 /*medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -301,8 +304,6 @@ button:hover {
     color: #fff;
     font-size: 100%;
  }
-
- /* booking page */
 
  form {
     width: 100%;
