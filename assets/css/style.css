@@ -85,16 +85,17 @@ footer {
     height: 200px;
     background-image: url('../images/Webp.net-resizeimage\ \(16\).jpg');
     background-size: contain;
-    animation: slide 20s linear  infinite;
+    animation: slide 20s linear infinite;
 }
 
 @keyframes slide {
-  from {
-    background-position: 0px;
-  }
-  to {
-    background-position: 1600px ;
-  }
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: 1600px;
+    }
 }
 
 #welcoming_text {
@@ -102,7 +103,7 @@ footer {
     text-align: center;
 }
 
-#welcoming_text> p {
+#welcoming_text>p {
     font-size: 110%;
     padding: 10px 30px 10px
 }
@@ -121,17 +122,17 @@ a {
 }
 
 #right_contianer {
-    background-image: url('../images/Webp.net-resizeimage\ \(5\).jpg') ;
+    background-image: url('../images/Webp.net-resizeimage\ \(5\).jpg');
     background-size: cover;
 }
 
 #center_contianer {
-    background-image: url('../images/13131212_950677328378620_3487526895747999700_o.jpg') ;
+    background-image: url('../images/13131212_950677328378620_3487526895747999700_o.jpg');
     background-size: cover;
 }
 
 #left_contianer {
-    background-image: url('../images/Webp.net-resizeimage\ \(4\).jpg') ;
+    background-image: url('../images/Webp.net-resizeimage\ \(4\).jpg');
     background-size: cover;
 }
 
@@ -145,28 +146,28 @@ a {
     float: left;
     margin: 10px 30px 10px;
     justify-content: center;
-    display:flex;
+    display: flex;
     align-items: center;
     text-align: center;
 }
 
-.link_container > a > h3:hover { 
-    color:  #fff;
+.link_container>a>h3:hover {
+    color: #fff;
     transform: scale(1.2);
-    font-weight:bold;
+    font-weight: bold;
 }
 
-.link_container > a > h3 {
+.link_container>a>h3 {
     color: #fff;
-    font-weight:bold;
- }
+    font-weight: bold;
+}
 
 /* booking page */
 #booking-form-container {
     width: 100%;
-    height: auto; 
+    height: auto;
     position: relative;
-    clear: both;  
+    clear: both;
     margin-bottom: 10px;
 }
 
@@ -183,17 +184,18 @@ form {
 }
 
 #booking-image {
-   position:relative;
-   float:right;
-   margin-right:10px
+    position: relative;
+    float: right;
+    margin-right: 10px
 }
+
 .client-details {
     font-size: 110%;
-    text-align:center;
+    text-align: center;
 }
 
 input {
-     margin-bottom:10px;
+    margin-bottom: 10px;
     border-radius: 50px;
     border: 2px solid #777;
     box-sizing: border-box;
@@ -205,46 +207,51 @@ input {
     width: 250px;
     height: 50px;
 }
+
 button {
-    margin-top:10px;
+    margin-top: 10px;
     border-radius: 50px;
     border: 2px solid #777;
-    padding:5px;
-    background-color:#B7A354; 
+    padding: 5px;
+    background-color: #B7A354;
     color: #fff
 }
 
 button:hover {
-    margin-top:10px;
+    margin-top: 10px;
     border-radius: 50px;
     border: 2px solid #777;
-    padding:5px;
-    background-color:#a4c558; 
-    color: #fff  ;
+    padding: 5px;
+    background-color: #a4c558;
+    color: #fff;
 }
 
 /* gallery html */
 
 /* about Namibia */
 
-#about-namibia-text{
-    width:100%;
-    text-align: center;}
-   
+#about-namibia-text {
+    width: 100%;
+    text-align: center;
+}
 
-#about-namibia-text > p {
+
+#about-namibia-text>p {
     padding: 10px 30px 10px;
 }
 
-#about-namibia-image{
-    width:100%;
-    height:30%;
+#about-namibia-image {
+    width: 100%;
+    height: 30%;
     margin-bottom: 10px;
 }
 
-#Namibia-image {
-    margin: 0 auto;
+#namibia-image {
+    width: auto;
+    display: block;
+    margin: auto;
 }
+
 /* social networks */
 .social-networks {
     text-align: center;
@@ -260,6 +267,7 @@ button:hover {
     padding: 2%;
     color: white;
 }
+
 /*medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -283,46 +291,46 @@ button:hover {
         margin-right: 10px;
     }
 
-    
+
     /*home page */
 
-.hero-banner {
-    width: 100%;
-    height: 100px;
-    background-image: url('../images/Webp.net-resizeimage\ \(16\).jpg');
-    background-size: contain;
-}
+    .hero-banner {
+        width: 100%;
+        height: 100px;
+        background-image: url('../images/Webp.net-resizeimage\ \(16\).jpg');
+        background-size: contain;
+    }
 
 
-.link_container {
-    width: 100px;
-    height: 100px;
-    border-style: solid;
-    border-color: #B7A354;
-    border-width: 5px;
-    border-radius: 50%;
-    float: left;
-    margin: 5px 5px 10px;
-    justify-content: center;
-    display:flex;
-    align-items: center;
-    text-align: center;
-}
+    .link_container {
+        width: 100px;
+        height: 100px;
+        border-style: solid;
+        border-color: #B7A354;
+        border-width: 5px;
+        border-radius: 50%;
+        float: left;
+        margin: 5px 5px 10px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
 
-.link_container > a > h3 {
-    color: #fff;
-    font-size: 100%;
- }
+    .link_container>a>h3 {
+        color: #fff;
+        font-size: 100%;
+    }
 
- form {
-    width: 100%;
-    margin-bottom:10px;
-}
+    form {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 
 
-#booking-image {
-   width:100%;
-   margin-right: 0px;
-}
-    
+    #booking-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
 }
