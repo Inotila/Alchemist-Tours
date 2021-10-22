@@ -240,16 +240,11 @@ button:hover {
     padding: 10px 30px 10px;
 }
 
-#about-namibia-image {
-    width: 100%;
-    height: 30%;
-    margin-bottom: 10px;
-}
-
 #namibia-image {
-    width: auto;
+    width: 33%;
     display: block;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 /* social networks */
@@ -322,6 +317,8 @@ button:hover {
         font-size: 100%;
     }
 
+    /* booking page */
+
     form {
         width: 100%;
         margin-bottom: 10px;
@@ -333,4 +330,22 @@ button:hover {
         margin-right: 0px;
     }
 
+       /* about Namibia */
+
+#about-namibia-text {
+    width: 100%;
+    text-align: center;
+}
+
+
+#about-namibia-text>p {
+    padding: 10px 10px 10px;
+}
+
+#namibia-image {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
 }
