@@ -226,8 +226,6 @@ button:hover {
     color: #fff;
 }
 
-/* gallery html */
-
 /* about Namibia */
 
 #about-namibia-text {
@@ -244,6 +242,22 @@ button:hover {
     width: 33%;
     display: block;
     margin: auto;
+    margin-bottom: 10px;
+}
+
+/* gallery html */
+#gallery_photo-container >.row {
+    width: 100%;
+    height: auto;
+    line-height: 10px;
+    column-count: 3;
+    column-gap: 10px;
+    margin-bottom: 40px;
+}
+
+#gallery_photo-container >.row > img {
+    width: 100%;
+    line-height: 10px;
     margin-bottom: 10px;
 }
 
@@ -348,4 +362,13 @@ button:hover {
     margin: auto;
     margin-bottom: 10px;
 }
+
+/* gallery html */
+#gallery_photo-container >.row {
+    width: 95%;
+    padding: 0px 10px 0px;
+    column-count: 1;
+    margin-bottom: 10px;
+}
+
 }
