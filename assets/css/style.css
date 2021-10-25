@@ -293,19 +293,22 @@ button:hover {
         font-size: 200%;
         text-decoration: none;
         color: white;
+         line-height: 30px;
     }
 
     #nav-menu {
-        width: 100%;
-        line-height: 20px;
-        letter-spacing: 1px;
-        position: relative;
-        right: 40px;
+        font-size: 100%;
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 0px;
+        line-height: 30px;
     }
 
     #nav-menu li {
         list-style-type: none;
         margin-right: 10px;
+        letter-spacing: 1px;
     }
 
 
@@ -346,7 +349,6 @@ button:hover {
         margin-bottom: 10px;
     }
 
-
     #booking-image {
         width: 100%;
         margin-right: 0px;
@@ -378,5 +380,4 @@ button:hover {
     column-count: 1;
     margin-bottom: 10px;
 }
-
 }
