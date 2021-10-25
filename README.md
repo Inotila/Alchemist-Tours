@@ -27,17 +27,36 @@ The site owner, is a shuttle compnay. The company would like to make offer poten
 
 This site is for the conviences of booking transport for toursit in and around the Windhoek. Furthermore, this site is provide  prospective travelers with info about Namibia and give them a look (via the gallery) at what beautys Namibia has to offer. The webisite aims at marketing the country, so as to boost the toursim industry. 
 
-## Deployment
+## Testing
+I test if this page works in different browsers.
 
-This project has been deployed on Github pages. The link to project is ( https://inotila.github.io/AlchemistTours--MileStone1-/index.html ) 
+I ensured that the project is reponsive, and the deisign looks good by using a minimalist approach. In addition I used the devtools to confirm that all sizes look good.
+
+I ensured that the page is readable, and that it is easy to understand the page and the actions that are afforded to the user.
+
+I have confirmed that all my inputs and fields work and accept the correct data format.
 
 ## Bugs and fixes
-
 I didn't come across too many bugs as the page is solely HTML and CSS. The bugs I came across where links that didn't work because I had a syntax error. Other common bugs were images not loading on other devices because my file path was wrong. I failed to include the (.) to indicate that it document was being loaded from the current file path.
 
 While testing I had feedback that the submit button lead particpants to an error page. They didn't not enjoy this even if they were just testing. So to fix this I put the button into an anchor element that lead to an thank you page. However,this didn't work no matter what I tried. the error that kept showing up indicated that the form is a post and so command was not being accepted. So my solution was to change the form method from post to get. While this is not what the form is for, it improved the testing process.
 
 I had issues with the navigation menu when the screen went lower than 950px and lower. It would not align properly,so to fix this I changed the float for element from float right to float left. This made it look better.
+
+## Unfixed bugs
+No unfixed bugs
+
+## Validator testing
+Html -no errors returned from the official w3c validator
+
+CSS -no errors returned from the official (jigsaw) validator
+
+Accesibility -Conofimation that the colors and fonts used are easy to read and are accessible  by running it throught lighthouse in devtools.
+
+## Deployment
+This project has been deployed on Github pages. The link to project is ( https://inotila.github.io/AlchemistTours--MileStone1-/index.html ) 
+
+
 ## Screenshots
 
 ## Features
@@ -65,3 +84,10 @@ My friend Brav Regimus contributed to this project by advising me to use felx to
 I researched how to excute ceterain codes on stack overflow to set up my banner to be animated. Futhermore, I used discussions on layouts to guide me to bettering my layout. https://stackoverflow.com/
 
 All images used are the property of Inotila and are marked with a logo at the bottom right corner.
+
+## Credits 
+
+Content -
+Text- Research by Inotila Nghaamwa from https://en.wikipedia.org/wiki/Namibia
+
+Images - All images used are the property of Inotila Nghaamwa and are marked with a logo at the bottom right corner.
