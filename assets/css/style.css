@@ -261,6 +261,13 @@ button:hover {
     margin-bottom: 10px;
 }
 
+/* Thank you */
+#thank-you-text{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
 /* social networks */
 .social-networks {
     text-align: center;
