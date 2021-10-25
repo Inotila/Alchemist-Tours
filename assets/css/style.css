@@ -284,6 +284,18 @@ button:hover {
     color: white;
 }
 
+/*medium screen for large monitors 951px wide and up */
+@media screen and (min-width: 951px) {
+    form {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    #booking-image {
+        width: 50%;
+        margin-right: 0px;
+    }
+}
 
 /*medium screen for mobiles and tabs 950px wide and down */
 @media screen and (max-width: 950px) {
