@@ -246,7 +246,7 @@ button:hover {
 }
 
 /* gallery html */
-#gallery_photo-container >.row {
+#gallery_photo-container>.row {
     width: 100%;
     height: auto;
     line-height: 10px;
@@ -255,14 +255,14 @@ button:hover {
     margin-bottom: 40px;
 }
 
-#gallery_photo-container >.row > img {
+#gallery_photo-container>.row>img {
     width: 100%;
     line-height: 10px;
     margin-bottom: 10px;
 }
 
 /* Thank you */
-#thank-you-text{
+#thank-you-text {
     width: 100%;
     text-align: center;
     padding: 10px;
@@ -285,21 +285,19 @@ button:hover {
 }
 
 
-/*medium screen sizes from 950px wide and down */
+/*medium screen for mobiles and tabs 950px wide and down */
 @media screen and (max-width: 950px) {
-
+/*logo and nav */
     #logo {
         letter-spacing: 1px;
         font-size: 200%;
-        text-decoration: none;
-        color: white;
-         line-height: 30px;
+        line-height: 30px;
     }
 
     #nav-menu {
         font-size: 100%;
-        clear: left;
         float: left;
+        clear: left;
         margin-left: 30px;
         margin-bottom: 0px;
         line-height: 30px;
@@ -354,30 +352,30 @@ button:hover {
         margin-right: 0px;
     }
 
-       /* about Namibia */
+    /* about Namibia */
 
-#about-namibia-text {
-    width: 100%;
-    text-align: center;
-}
+    #about-namibia-text {
+        width: 100%;
+        text-align: center;
+    }
 
 
-#about-namibia-text>p {
-    padding: 10px 10px 10px;
-}
+    #about-namibia-text>p {
+        padding: 10px 10px 10px;
+    }
 
-#namibia-image {
-    width: 100%;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-}
+    #namibia-image {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
 
-/* gallery html */
-#gallery_photo-container >.row {
-    width: 95%;
-    padding: 0px 10px 0px;
-    column-count: 1;
-    margin-bottom: 10px;
-}
+    /* gallery html */
+    #gallery_photo-container>.row {
+        width: 95%;
+        padding: 0px 10px 0px;
+        column-count: 1;
+        margin-bottom: 10px;
+    }
 }
