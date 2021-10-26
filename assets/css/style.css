@@ -9,7 +9,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color: #B7A354;
+    color: #857527;
     min-height: 100vh;
     position: relative;
     display: flex;
@@ -61,6 +61,7 @@ footer {
 }
 
 #nav-menu li {
+    color: #ebd482;
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -110,7 +111,7 @@ footer {
 
 a {
     text-decoration: none;
-    color: #B7A354;
+    color: #857527;
     font-weight: bold;
 }
 
@@ -140,7 +141,7 @@ a {
     width: 150px;
     height: 150px;
     border-style: solid;
-    border-color: #B7A354;
+    border-color: #857527;
     border-width: 5px;
     border-radius: 50%;
     float: left;
@@ -213,7 +214,7 @@ button {
     border-radius: 50px;
     border: 2px solid #777;
     padding: 5px;
-    background-color: #B7A354;
+    background-color: #857527;
     color: #fff
 }
 
@@ -223,7 +224,7 @@ button:hover {
     border: 2px solid #777;
     padding: 5px;
     background-color: #a4c558;
-    color: #fff;
+    color: #484848;
 }
 
 /* about Namibia */
