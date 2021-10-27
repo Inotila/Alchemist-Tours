@@ -32,13 +32,54 @@ This site is for the conviences of booking transport for toursit in and around t
 4. A link to flight booking sites
 
 ## Features
-1. home page -introduces the company and gives user the opportunity to navigate various pages.
-2. booking form - allows users to book a shuttle.
-3. about namibia - a page that has information about Namibia.
-4. gallery - an organized gallery with various high quality images.
-5. Nav - a responsive navigation menu that indicates its current page by highlighting the current page. Furthermore, when hovered over underlines the link so that users understand that the words is a link.
-6. Footer -we have footer to keep social media links and other ways to reach the company.
-7. links- this project has links that are both internal(on the website) and external (other websites). All external links open a new tab when clicked. And internal links stay on the current page/website.
+1. Welcome/home page -
+
+<img src="./assets/images/pagehome.jpg" width="320px">
+Introduces the company and it's servises. In addition, it gives users the opportunity to navigate various  to various pages on the website. This is opportunity is via the three circles. Users are alerted that the element is a link because if one hovers over them, the element expands to show its affordance.
+
+The welcoming page is useful to the user becuase, introdures the users to what the webpage is about and an indication of what can be done on the page. Furthermore, users can jump to otherpages using the links.
+
+2. booking form - 
+
+<img src="./assets/images/pageforum.jpg" width="320px">
+
+This is a form that allows users to book a shuttle. The form takes the details about the users name, their pickup/dropoff location and date, it also takes the number of passengers, and the users email. In addition there is a text field for additional request. While the text field is not required, the rest of the form inputs are required, their for should be filled out. There is also a button to submit the form. The button has is reponsive when hovered over, turning green when hovered over to indicate that is indeed a button.
+
+The form is useful to the user becuase, its an easy way to book a shuttle.
+
+3. about namibia - 
+
+<img src="./assets/images/pageabout.jpg" width="320px">
+
+A page that has information about Namibia. Users also have links to trip advisor and the gallery. These words are in bold to indicate that they are link. The trip advisor link opens on a new tab.
+
+The about Namibia page is useful to the user becuase, here they can get basic info about Namibia if they are still deciding on whether they should travel to Namibia. In addition it links users to visual content(the gallery) and to other possible attractions in the country(trip advisor page).
+
+
+4. gallery -
+
+<img src="./assets/images/pagegallery.jpg" width="320px">
+
+ An organized gallery with various high quality images.
+
+ The gallery is useful to the user becuase,of visual content that shows users what to expect. In addtion it is a great marketing tool for those who are scouting for a holiday destination.
+
+5. Nav - 
+
+<img src="./assets/images/pageheader.jpg" width="320px">
+
+a responsive navigation menu that indicates its current page by highlighting the current page. Furthermore, when hovered over underlines the link so that users understand that the words is a link.
+
+The navigation menu is usefull to users because it shows users which page they are on by highlighting the active page. Futhermore, its and easy way to navigate the page. In general, it directs the user. It also shows the name of the company, so users know which company they are workinf with.
+
+6. Footer -
+
+<img src="./assets/images/pagefooter.jpg" width="320px">
+
+we have footer to keep social media links and other ways to reach the company. These links are links that open in new tabs so as to not take the user away from the website.
+
+The social media links are useful for the users because they encourage the user to get incontact with the company on other platforms(Facebook, Twitter, Instagram and Youtube). This gives them the ability to interact/contact the company and also research them more.
+
 
 ## Future Features
 1. A link to flight booking sites
