@@ -183,11 +183,18 @@ form {
     margin-right: auto;
 }
 
+
+
 .client-details {
     font-size: 110%;
     text-align: center;
 }
 
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
 
 input {
     margin-bottom: 10px;
@@ -195,7 +202,11 @@ input {
     border: 2px solid #777;
     box-sizing: border-box;
     padding: 5px;
+    text-align: center;
+    align-content:center;
+    width: 300px;
 }
+
 
 button {
     margin-top: 10px;
