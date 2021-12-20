@@ -45,7 +45,7 @@
     </div>
     <div id="booking-form-container">
 
-        <form action="thanks.html" method="post" class="client-details">
+        <form action="thanks.html" method="get" class="client-details">
             <label for="name">Enter Name:</label>
             <br>
             <input type="text" id="name" name="passenger_name" placeholder="Happy Traveler" required>
@@ -61,7 +61,7 @@
             <br>
             <label for="date">Pick up time:</label>
             <br>
-            <input type="datetime-local" id="date" name="passenger_pickup_time" placeholder="" required>
+            <input type="datetime-local" id="date" name="passenger_pickup_time" value="" required>
             <br>
             <label for="pick-up">Pick up address:</label>
             <br>
@@ -77,7 +77,7 @@
             <br>
             <input type="text" id="request" name="client-request" placeholder="Special request ,e.g. Type of music">
             <br>
-            <button type="submit" onclick="location.href='./thanks.html'">Book Transport</button>
+            <button type="submit">Book Transport</button>
         </form>
         <img src="./assets/images/windhoek-sunset.jpg" alt="a sun sets over Windhoek" id="booking-image">
     </div>
