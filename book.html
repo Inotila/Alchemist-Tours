@@ -46,40 +46,52 @@
     <div id="booking-form-container">
 
         <form action="thanks.html" method="get" class="client-details">
-            <label for="name">Enter Name:</label>
-            <br>
-            <input type="text" id="name" name="passenger_name" placeholder="Happy Traveler" required>
-            <br>
-            <label for="email">Enter Email:</label>
-            <br>
-            <input type="email" id="email" name="passenger_email" placeholder="happytraveler@email.com" required>
-            <br>
-            <label for="number_of_passengers">No of Passengers:</label>
-            <br>
-            <input type="number" id="number_of_passengers" name="number_of_passengers" placeholder="4" min="1" max="11"
-                required>
-            <br>
-            <label for="date">Pick up time:</label>
-            <br>
-            <input type="datetime-local" id="date" name="passenger_pickup_time" value="" required>
-            <br>
-            <label for="pick-up">Pick up address:</label>
-            <br>
-            <input type="text" id="pick-up" name="pick-up-location" placeholder="Windhoek International Airport"
-                required>
-            <br>
-            <label for="drop-off">Drop off address:</label>
-            <br>
-            <input type="text" id="drop-off" name="drop_off_street" placeholder="Hiton Hotel, Sam Nujoma Ave"
-                required>
-            <br>
-            <label for="request">Additional request:</label>
-            <br>
-            <input type="text" id="request" name="client-request" placeholder="Special request ,e.g. Type of music">
-            <br>
-            <button type="submit">Book Transport</button>
+            <fieldset>
+                <div class="form-div">
+                    <label for="name">Enter Name:</label>
+                <input type="text" id="name" name="passenger_name" placeholder="Happy Traveler" required>
+                </div>
+               
+                <div class="form-div">
+                    <label for="email">Enter Email:</label>
+                <input type="email" id="email" name="passenger_email" placeholder="happytraveler@email.com" required>
+                </div>
+                
+                <div class="form-div">
+                    <label for="number_of_passengers">No of Passengers:</label>
+                <input type="number" id="number_of_passengers" name="number_of_passengers" placeholder="4" min="1"
+                    max="11" required>
+                </div>
+                                
+                    <div class="form-div">
+                        <label for="date">Pick up time:</label>
+                <input type="datetime-local" id="date" name="passenger_pickup_time" value="" required>
+                    </div>
+                
+                <div class="form-div">
+                    <label for="pick-up">Pick up address:</label>
+                <input type="text" id="pick-up" name="pick-up-location" placeholder="Windhoek International Airport"
+                    required>
+                </div>
+                
+               
+                    <div class="form-div">
+                        <label for="drop-off">Drop off address:</label>
+                <input type="text" id="drop-off" name="drop_off_street" placeholder="Hiton Hotel, Sam Nujoma Ave"
+                    required>
+                    </div>
+                
+                
+                
+                <div class="form-div">
+                    <label for="request">Additional request:</label>
+                    <input type="text" id="request" name="client-request" placeholder="Special request ,e.g. Type of music">
+                </div>
+              
+                <div class="form-div">
+                    <button type="submit">Book Transport</button></fieldset>
+                </div>
         </form>
-        <img src="./assets/images/windhoek-sunset.jpg" alt="a sun sets over Windhoek" id="booking-image">
     </div>
 
     <footer>
