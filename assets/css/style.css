@@ -296,6 +296,23 @@ button:hover {
     }
 }
 
+@media screen and (max-width: 425px) {
+    label  {
+        width: 50%;
+        text-align: center;
+    }
+    
+    input {
+        width:50%;
+        margin-bottom:20px;
+    }
+
+    .client-details {
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
 /*medium screen for mobiles and tabs 950px wide and down */
 @media screen and (max-width: 949px) {
 
